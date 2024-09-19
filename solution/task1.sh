@@ -1,2 +1,3 @@
-cd data/
-grep -c 'дверь' pushkin.txt
+cd data
+grep -o "дверь" pushkin.txt | wc -l
+cd ..
